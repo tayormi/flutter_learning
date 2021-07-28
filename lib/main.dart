@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning_1/buttons.dart';
 import 'package:flutter_learning_1/color.dart';
 import 'package:flutter_learning_1/home.dart';
 import 'package:flutter_learning_1/images.dart';
+
+import 'navigation/first_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.purple,
       ),
-      home: const ImageScreen(),
+      home: const FirstScreen(),
     );
   }
 }
